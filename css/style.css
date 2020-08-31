@@ -1,0 +1,330 @@
+/* Add all your styles here */
+*{
+margin: 0;
+padding: 0;
+}
+.body1 h3{
+font-family: 'Londrina Solid', cursive;
+color: darkred;
+}
+.body1 h1{
+font-family: 'Londrina Solid', cursive;
+}
+.home2 img{
+padding-top: 30px;
+width: 100%;
+height: 200px;
+padding-left: 12px;
+padding-right: 12px;
+padding-bottom: 5px;
+}
+.font p{
+font-family: 'Londrina Solid', cursive;
+padding-left: 8px;
+}
+.font h4{
+font-family: 'Acme', sans-serif;
+padding-left: 8px;
+}
+.font h1{
+font-family: 'Russo One', sans-serif;
+}
+.home2 h1{
+padding-left: 6px;
+font-size: 24pt;
+font-weight: bold;
+font-family: ;
+}
+.home2 h3{
+font-size: 18pt;
+padding-left: 6px;
+font-family: ;
+}
+.home2 h4{
+padding-left: 6px;
+font-weight: bold;
+color: blue;
+}
+.home2 .p{
+color: black;
+padding-left: 6px;
+font-family: 'Londrina Solid', cursive;
+font-weight: bold;
+font-size: 20pt;
+}
+.home2 ul{
+padding-left: 18px;
+}
+.body1{
+text-align: center;
+padding-top: 80px;
+}
+.body1 h1{
+font-weight: bold;
+text-transform: uppercase;
+color: red;
+font-family: ;
+}
+.body1 h3{
+font-weight: bold;
+}
+.reachus .btn{
+text-align: center;
+background: green;
+width: 40%;
+padding-bottom: 11px;
+padding-top: 11px;
+margin-left: 80px;
+margin-top: 30px;
+}
+.icons{
+padding-left: 20px;
+}
+.title{
+background: black;
+font-family: 'Londrina Solid', cursive;
+color: white;
+height: 55px;
+}
+.aboutus h1{
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+padding-top: 80px;
+}
+.aboutus img{
+width: 100%;
+height: 300px;
+padding-left: 12px;
+padding-right: 12px;
+}
+.aboutus p{
+text-align: center;
+font-size: 12pt;
+font-family: 'Acme', sans-serif;
+}
+.title label{
+font-size: 22px;
+line-height: 55px;
+font-weight: bold;
+padding-left: 15px;
+}
+body{
+background-color: ;
+color: black;
+}
+aboutborder{
+border-radius: 5px;
+background-color: lightblue;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+}
+.services{
+text-align: center;
+padding-top: 20px;
+}
+.services h1{
+font-weight: bold;
+font-size: 24pt;
+padding-top: 40px;
+}
+.services ul{
+padding-left: 18px;
+}
+.services ul li{
+text-align: left;
+padding-bottom: 20px;
+}
+.services p{
+font-size: 12pt;
+}
+footer{
+background: black;
+text-align: center;
+color: white;
+margin-top: 40px;
+height: auto;
+}
+footer h2{
+padding-top: 30px;
+font-family: 'Londrina Solid', cursive;
+}
+footer h4{
+font-family: 'Acme', sans-serif;
+}
+footer p{
+font-family: 'Balsamiq Sans', cursive;
+}
+.copyright{
+padding-bottom: 10px;
+text-align: center;
+color: gray;
+font-size: 8pt;
+padding-top: 80px;
+}
+.reachus i{
+font-size: 35pt;
+padding-left: 30px;
+padding-top: 15px;
+}
+.reachus h2{
+text-align: center;
+font-size: 35pt;
+font-weight: bold;
+}
+.footer-content h4{
+padding-top: 50px;
+}
+.footer-content p{
+padding-top: 25px;
+}
+.credit{
+font-size: 6pt;
+text-align: right;
+padding-bottom: 10px;
+}
+
+
+/* responsive for desktop view */
+@media (min-width: 858px){
+.body1 h1{
+font-size: 50pt;
+font-weight: bold;
+text-transform: uppercase;
+}
+.body1{
+margin-bottom: 0px;
+}
+.body1 h3{
+font-weight: bold;
+font-size: 27pt;
+padding-bottom: 5px;
+}
+.title label{
+font-size: 36px;
+line-height: 55px;
+padding-left: 30px;
+font-weight: bold;
+}
+.home2 img{
+width: 70%;
+padding-left: 16px;
+padding-top: 30px;
+padding-bottom: 5px;
+height: auto;
+}
+.home2 p{
+padding-left: 16px;
+font-size: 22pt;
+color: black;
+}
+.home2 h1{
+padding-left: 12px;
+font-size: 44pt;
+font-weight: bold;
+font-family: ;
+}
+.home2 h3{
+font-size: 30pt;
+padding-left: 16px;
+font-family: ;
+}
+.home2 h4{
+padding-left: 6px;
+font-weight: bold;
+color: blue;
+font-size: 25pt;
+}
+.home2{
+text-align: center;
+background: radial-gradient(#fff, #ffd6d6);
+margin-top: 0px;
+padding-bottom: 5px;
+}
+.home2 ul{
+text-align: center;
+font-size: 22pt;
+font-weight: bold;
+list-style-type: none;
+}
+.homep{
+padding-right: 16px;
+}
+.aboutus h1{
+font-size: 50pt;
+}
+.aboutus img{
+width: 70%;
+height: auto;
+padding-left: 340px;
+}
+.aboutus p{
+font-size: 24pt;
+}
+.services{
+text-align: center;
+padding-top: 20px;
+}
+.services ul li{
+list-style-type: none;
+text-align: center;
+font-size: 22pt;
+padding-bottom: 20px;
+}
+.services h1{
+font-weight: bold;
+font-size: 50pt;
+padding-top: 40px;
+}
+.services p{
+font-size: 22pt;
+}
+footer{
+background: black;
+color: white;
+margin-top: 40px;
+height: auto;
+}
+footer h2{
+text-align: center;
+font-size: 44pt;
+}
+.copyright{
+text-align: center;
+background: black;
+color: gray;
+font-size: 18pt;
+margin-top: 80px;
+}
+.reachus .btn{
+text-align: center;
+background: green;
+width: 30%;
+padding-bottom: 11px;
+padding-top: 11px;
+margin-left: 70px;
+font-size: 22pt;
+margin-top: 0px;
+}
+.reachus i{
+font-size: 50pt;
+padding-left: 39px;
+padding-top: 15px;
+}
+.reachus h2{
+text-align: center;
+font-size: 50pt;
+font-weight: bold;
+}
+.icons{
+padding-left: 50px;
+padding-top: 20px;
+}
+.credit{
+padding-bottom: 12px;
+font-size: ;
+text-align: center;
+}
+}
+
